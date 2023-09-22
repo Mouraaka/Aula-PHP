@@ -1,0 +1,130 @@
+
+* {
+   margin: 0px;
+   text-decoration: none;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #121a21;
+    height: 100vh;
+
+}
+
+/* CABEÇALHO */
+
+    .cabecalho {
+        width: 100%;
+        display: flex;    
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logo_unisuam {
+        width: 200px;
+        margin: 30px;
+        
+    }
+
+    .cabecalho-itens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: #e56d1c;
+    }
+
+    .ex1, .ex2, .ex3, .ex4 {
+        font-size: 30px;
+        margin: 10px;
+        color: white;
+    }
+
+
+
+/* MEIO PAGINA */
+
+
+
+
+    .pagina-centro {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+
+    }
+
+        /* LADO FOTO */
+
+        .foto_aluno {
+            width: 250px;
+
+        }
+
+        /* LADO INFOS */
+
+        .lado_infos {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            width: 100%;
+        }
+
+        .nome_doisp, .matricula_doisp {
+            color: #e56d1c;
+            font-size: 30px;
+        }
+
+        .info_nome, .info_matricula{
+            color: white;
+            font-size: 25px;
+        }
+
+/* RODAPE */
+
+    footer{
+        background-color: #e56d1c;
+    }
+
+    .texto_footer{
+        color:white;
+    }
+
+
+/* RESPONSIVIDADE */
+
+    @media screen and (min-width: 1280px){
+    
+    .cabecalho-itens {
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+
+    .pagina-centro {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .foto_aluno{
+        width: 400px;
+    }
+
+    .nome_doisp, matricula_doisp {
+        font-size: 40px;
+    }
+
+
+    .lado_foto{
+        width: 30%;
+    }
+
+    .lado_infos {
+        width: 30%;
+    }
+        
+    }

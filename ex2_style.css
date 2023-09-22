@@ -1,0 +1,137 @@
+
+#text{
+    display: none;
+}
+
+* {
+   margin: 0px;
+   text-decoration: none;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #121a21;
+    height: 100vh;
+
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+    width: 100%;
+    display: flex;    
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo_unisuam {
+    width: 200px;
+    margin: 30px;
+    
+}
+
+.cabecalho-itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #e56d1c;
+}
+
+.ex1{
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
+
+
+/* MEIO PAGINA */
+
+
+    .pagina-centro {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+
+    }
+
+    .infos{
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .form_login, .form_senha{
+        width: 80%;
+        height: 30px;
+        margin: 20px;
+        border: none;
+        outline: none; 
+    }
+
+    .form_enviar{
+        width: 50%;
+        height: 40px;
+        margin-top: 40px;
+        transition: 0.3s;
+        border: none;
+        outline: none;
+    }
+
+    .form_enviar:hover{
+        color: white;
+        background-color: #e56d1c
+    }
+
+    .form_infos{
+        width: 100%;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contagem{
+        display:flex;
+        flex-direction: column;
+        color: white;
+        padding: 30px;
+        font-size: 30px;
+    }
+
+
+/* RODAPE */
+
+    footer{
+        background-color: #e56d1c;
+    }
+
+    .texto_footer{
+        color:white;
+    }
+
+
+/* RESPONSIVIDADE */
+
+@media screen and (min-width: 1280px){
+ 
+    .pagina-centro {
+        justify-content: center;
+    }
+
+    .form_login, .form_senha{
+        width: 40%;
+        
+    }
+
+    .form_enviar{
+        width: 50%;
+       
+    }
+
+
+
+}

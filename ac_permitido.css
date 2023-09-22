@@ -1,0 +1,98 @@
+
+
+* {
+    margin: 0px;
+    text-decoration: none;
+ }
+ 
+ body {
+     display:flex;
+     flex-direction: column;
+     justify-content: space-between;
+     background-color: #121a21;
+     height: 100vh;
+ 
+ }
+ 
+ /* CABEÇALHO */
+ 
+     .cabecalho {
+         width: 100%;
+         display: flex;    
+         align-items: center;
+         flex-direction: column;
+     }
+ 
+     .logo_unisuam {
+         width: 200px;
+         margin: 30px;
+         
+     }
+ 
+     .cabecalho-itens {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: 100%;
+         background-color: #e56d1c;
+     }
+ 
+     .ex1, .ex2, .ex3, .ex4 {
+         font-size: 30px;
+         margin: 10px;
+         color: white;
+     }
+ 
+ 
+ 
+ /* MEIO PAGINA */
+ 
+ 
+ 
+ 
+     .pagina-centro {
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         margin-top: 30px;
+ 
+     }
+ 
+     .infos{
+         width: 100%;
+         text-align: center;
+ 
+     }
+
+     .mensagem{
+        font-size: 40px;
+        color: #9e5727;
+     }
+ 
+ 
+ 
+ /* RODAPE */
+ 
+     footer{
+         background-color: #e56d1c;
+     }
+ 
+     .texto_footer{
+         color:white;
+     }
+ 
+ 
+ /* RESPONSIVIDADE */
+ 
+ @media screen and (min-width: 1280px){
+  
+     .pagina-centro {
+         justify-content: center;
+     }
+
+     .mensagem{
+        font-size: 80px;
+    
+     }
+ 
+ }
